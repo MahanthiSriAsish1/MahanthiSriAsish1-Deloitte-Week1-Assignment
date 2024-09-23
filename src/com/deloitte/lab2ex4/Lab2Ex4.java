@@ -4,10 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class Lab2Ex4 {
-//	public static int[] removeDuplicate(int[] arr) {
-//		int[] copy = new int[arr.length];
-//		
-//	}
+
 	
 	public static int[] modifyArray(int[] arr) {
 		return Arrays.stream(arr).distinct().boxed().sorted(Comparator.reverseOrder()).mapToInt(Integer::intValue).toArray();

@@ -3,25 +3,6 @@ package com.deloitte.lab1ex4;
 import java.util.Scanner;
 
 public class Lab1Ex4 {
-//	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//
-//		System.out.println("Enter Any Number of your choice:");
-//		int num = sc.nextInt();
-//
-//		System.out.println("Prime Numbers upto the entered number:");
-//		if (num < 2) {
-//			System.out.println(num + " is not a prime number.");
-//		} else {
-//			for (int i = 2; i < num; i++) {
-//				if (num % i != 0) {
-//					System.out.println(i);
-//				}
-//			}
-//		}
-//
-//		sc.close();
-//	}
 	
 	public static boolean isPrime(int number) {
         if (number <= 1) {

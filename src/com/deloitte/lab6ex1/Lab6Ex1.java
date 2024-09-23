@@ -13,9 +13,9 @@ public class Lab6Ex1 {
 
     public static void main(String[] args) {
         HashMap<String, Integer> sampleMap = new HashMap<>();
-        sampleMap.put("Alice", 25);
-        sampleMap.put("Bob", 30);
-        sampleMap.put("Charlie", 20);
+        sampleMap.put("Asish", 25);
+        sampleMap.put("Prathik", 30);
+        sampleMap.put("Datta", 20);
         
         List<Integer> sortedValues = getSortedValues(sampleMap);
         System.out.println("Sorted Values: " + sortedValues);

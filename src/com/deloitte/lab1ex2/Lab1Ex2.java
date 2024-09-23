@@ -11,7 +11,6 @@ public class Lab1Ex2 {
 		System.out.println("3. Yellow");
 		
 		int choice = sc.nextInt();
-//		System.out.println(str);
 		
 		switch (choice) {
 		case 1: {

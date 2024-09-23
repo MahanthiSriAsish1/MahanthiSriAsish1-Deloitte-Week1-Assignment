@@ -11,7 +11,6 @@ public class Lab1Ex1 {
 		int num = sc.nextInt();
 		
 		String str = Integer.toString(num);
-//		System.out.println(str);
 		
 		sc.close();
 		
